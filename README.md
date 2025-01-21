@@ -16,7 +16,7 @@ This is a pure python library that uses RPi.GPIO library, thus compatible for ou
 To run this, you can run the "basicDHT11.py"
 
 BUT
-the library have some inaccuraries that make it run slower on Pi 4 and Pi 3.
+the library have some inaccuraries that cause the communication error between sensor and Raspberry Pi. This make the program have issue on Pi 4 and Pi 3.
 
 So, I edited the "dht11" library (the "__init__.py" file) and save it as another name ("dht11new"). [I only editted the sleep function in the code.]
 
